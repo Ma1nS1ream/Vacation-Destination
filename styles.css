@@ -1,0 +1,62 @@
+h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0.25em;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: #333333;
+}
+
+header {
+	padding: 3%;
+	background-color: cornflowerblue;
+	text-align: center;
+	color: white;
+	margin-bottom: 1%;
+}
+
+main {
+	max-width: 65%;
+	padding: 2%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+main form {
+	width: 40%;
+}
+
+main article {
+	width: 45%;
+}
+
+#title {
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+input, textarea, #destination_details_form button {
+	display: block;
+	width: 100%;
+	margin-bottom: 1em;
+	border: 1px solid #666666;
+	padding: 2.85%;
+	box-sizing: border-box;
+}
+
+.card {
+	padding: 3%;
+	background-color: #efefef;
+	margin-bottom: 2%;
+}
